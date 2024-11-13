@@ -1,0 +1,120 @@
+body {
+    background: url("../img/booCompany.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.descripcionEmpresa {
+    background-color: rgba(7, 75, 89, 0.9); 
+    color: white;
+    max-width: 480px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.breadcrumb-custom-bg {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.breadcrumb-custom-bg .breadcrumb-item a {
+    color: #fff; 
+}
+form{
+    
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.7);
+    border-radius: 10px;
+}
+
+
+.card-light-overlay {
+    background-color: rgb(29, 0, 61); 
+    color: #ffffff; 
+}
+.card-body{
+    background-color: rgb(29, 0, 61);
+}
+
+.text-light {
+    color: #fff !important; 
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+
+footer {
+    background-color: #222; 
+}
+
+.socialMedia a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+.presentacionContenido {
+    background-color: rgba(14, 5, 17, 0.9); 
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer{
+    margin-top: auto;
+}
+.form-container {
+    background-color: #08000cd2;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(63, 1, 99, 0.1);
+    color: white;
+  }
+  
+  /* Enlaces de breadcrumbs */
+  .breadcrumb-item a {
+    color: #fff;
+  }
+
+  .breadcrumb-item a:hover {
+    color: #f39c12;
+  }
+
+  /* Botones con colores contrastantes */
+  .btn-primary {
+    background-color: #f39c12;
+    border-color: #f39c12;
+  }
+  .btn-primary:hover {
+    background-color: #e67e22;
+    border-color: #e67e22;
+  }
+
+  .form-control {
+    background-color: #2d2d2d;
+    color: #fff;
+    border-color: #555;
+  }
+  .form-control:focus {
+    border-color: #f39c12;
+    box-shadow: 0 0 5px rgba(243, 156, 18, 0.5);
+  }
